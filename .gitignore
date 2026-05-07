@@ -1,0 +1,18 @@
+# Generated files
+/target/
+
+# Cargo lock file (keep for binaries, ignore for libraries)
+# Cargo.lock
+
+# Environment files
+.env
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db

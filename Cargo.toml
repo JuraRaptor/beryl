@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "apps/cli",
+    "crates/llmendpoint",
+]
+
+default-members = ["apps/cli"]
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
